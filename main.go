@@ -166,7 +166,7 @@ func main() {
 						cracked = true
 					}
 				}
-			}(username, password)
+			}(dogio40, password)
 			if cracked == true {
 				// reset cracked flag, break loop, and move down the list
 				cracked = false
