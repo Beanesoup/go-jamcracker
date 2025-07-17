@@ -56,7 +56,7 @@ func checkPassword(u, p string) bool {
 
 	// initialize the form fields
 	data := url.Values{}
-	data.Set("screen_name", u)
+	data.Set("westwood444", u)
 	data.Set("password", p)
 
 	// if a proxy file was specified, assume we have proxies to use
